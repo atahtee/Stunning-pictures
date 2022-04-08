@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+    background: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 45px;
+    letter-spacing: 4px;
+}
+
+/* Loader */
+
+.loader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(165, 80, 80, 0.8);
+}
+
+.loader img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Image Container */
+
+.image-container {
+    margin: 10px 5%;
+    columns: 3;
+    column-gap: 40px;
+}
+
+.image-container img {
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+/* Media Query: PC */
+
+@media screen and (max-width: 1920px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .image-container {
+        columns: 2;
+        column-gap: 30px;
+    }
+}
+
+/* Media Query: Tablet */
+
+@media screen and (max-width: 1280px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .image-container {
+        columns: 1;
+        column-gap: 20px;
+    }
+}
+
+/* Media Query: Large Smartphone */
+
+@media screen and (max-width: 600px) {
+    .image-container {
+        margin: 10px;
+    }
+}
+
+/* Utils */
+
+.hidden {
+    display: none;
+}
