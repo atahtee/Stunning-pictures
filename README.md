@@ -1,7 +1,7 @@
 # Stunning-pictures to make your day better
 
 
-Contemplate the most beautiful pictures from all over the world.
+Contemplate the most beautiful pictures from all over the world with unending display
 
 This project implements the infinite scroll mechanism for uninterrupted user experience
 
